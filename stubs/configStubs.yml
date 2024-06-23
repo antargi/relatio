@@ -1,0 +1,29 @@
+- request:
+    url: /posts/all
+    method: GET
+  response:
+    status: 200
+    latency: 0
+    headers:
+      content-type: application/json
+    file: post/getPostList.json
+
+- request:
+    url: /post/
+    method: GET
+  response:
+    status: 200
+    latency: 0
+    headers:
+      content-type: application/json
+    file: post/getPostList.json
+
+- request:
+    url: /post
+    method: POST
+  response:
+    status: 200
+    latency: 0
+    headers:
+      content-type: application/json
+    file: post/createPost.json

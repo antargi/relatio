@@ -1,0 +1,46 @@
+[
+  {
+    "id": 123,
+    "title": "Ejemplo de un Post de Blog",
+    "author": "Juan Pérez",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.",
+    "tags": ["ejemplo", "blog", "JSON"],
+    "date_published": "2024-02-27T08:00:00",
+    "views": 150,
+    "likes": 25,
+    "comments": [
+      {
+        "id": 1,
+        "user": "Maria Gomez",
+        "comment": "Excelente artículo. Me ha ayudado mucho."
+      },
+      {
+        "id": 2,
+        "user": "Carlos Rodriguez",
+        "comment": "Muy interesante. ¿Hay más artículos relacionados?"
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "title": "Otro ejemplo de Post de Blog",
+    "author": "Ana García",
+    "content": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+    "tags": ["ejemplo", "blog", "JSON"],
+    "date_published": "2024-02-25T10:30:00",
+    "views": 100,
+    "likes": 30,
+    "comments": [
+      {
+        "id": 3,
+        "user": "Luis Martinez",
+        "comment": "¡Fascinante lectura!"
+      },
+      {
+        "id": 4,
+        "user": "Elena Torres",
+        "comment": "Gracias por compartir, Ana."
+      }
+    ]
+  }
+]

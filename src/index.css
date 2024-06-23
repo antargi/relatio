@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+font-face {
+    font-family: 'Myanmar-Khyay';
+    src:url('./assets/fonts/Khyay-Regular.woff') format('woff'),
+        url('./assets/fonts/Khyay-Regular.svg') format('svg'),
+        url('./assets/fonts/Khyay-Regular.eot') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+  font-family: 'Varela Round';
+}
